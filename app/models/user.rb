@@ -4,5 +4,5 @@ class User < ActiveRecord::Base
   cache_index :name
 
   has_many :items
-  cache_has_many :items, :embed => true
+  cache_has_many :items
 end
